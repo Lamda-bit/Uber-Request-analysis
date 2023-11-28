@@ -167,7 +167,7 @@ def main():
         elif page4 == "Sum of Squared Error":
             elbow()
     st.markdown("___")              
-							  )
+							  
     ml_expander = st.expander("Machine Learning Frames", expanded=False)
     with ml_expander:
        ml()
