@@ -166,9 +166,7 @@ def main():
             scaledPlot()
         elif page4 == "Sum of Squared Error":
             elbow()
-    st.markdown("___")
-    frame = st.sidebar.button("ML Frames", 
-             ("new")                
+    st.markdown("___")              
 							  )
     ml_expander = st.expander("Machine Learning Frames", expanded=False)
     with ml_expander:
