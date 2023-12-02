@@ -1047,7 +1047,7 @@ def scaledPlot():
     sns.scatterplot(data=scaled3, x=scaled3.Driver_id, y = scaled3['count'], label = 'Cluster 3')
     sns.scatterplot(data=scaled4, x=scaled4.Driver_id, y = scaled4['count'], label = 'Cluster 4')
     sns.scatterplot(data=scaled5, x=scaled5.Driver_id, y = scaled5['count'], label = 'Cluster 5')
-    sns.scatterplot(data = c, x = c[:,0], y = c[:,1], label = 'centroid', color = 'black')
+    #sns.scatterplot(data = c, x = c[:,0], y = c[:,1], label = 'centroid', color = 'black')
     st.pyplot(fig)
 
 
